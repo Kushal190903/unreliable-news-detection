@@ -14,6 +14,8 @@ they are listed in requirements.tct file included in this repository<br>
 Following texts were used in Test.py<br>
 <pre>Test case                        prediction<br>
 <ul><li><a href="https://www.businesstoday.in/india/story/congress-is-like-chinese-stock-market-shankar-sharma-after-exit-polls-predict-setback-for-bjp-in-haryana-448911-2024-10-06">Test case 1</a>                        98.72
+</li><li><a href="https://www.hindustantimes.com/world-news/france-criticizes-israels-attacks-on-lebanon-netanyahu-gives-shame-reply-101728188698079.html">
+Test case 2</a>                                    99.66
 </li>
 </pre>
 </ul>
