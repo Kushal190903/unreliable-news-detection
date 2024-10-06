@@ -15,6 +15,6 @@ Following texts were used in Test.py<br>
 <pre>Test case                        prediction</pre><br>
 <ol>
   <li><a href="https://www.businesstoday.in/india/story/congress-is-like-chinese-stock-market-shankar-sharma-after-exit-polls-predict-setback-for-bjp-in-haryana-448911-2024-10-06">
-Test case 1 </a>                        98.72
+<pre>Test case 1 </a>                        98.72</pre>
 </li>
 </ol>
