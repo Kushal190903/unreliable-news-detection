@@ -35,6 +35,24 @@ Test case 2</a>
       99.66
     </td>
   </tr>
+  <tr>
+    <td>
+      <a href="https://sports.ndtv.com/football/real-madrid-beat-villarreal-but-dani-carvajal-suffers-knee-injury-6726606">Test case 3</a>
+    </td>
+    <td>
+      99.81
+    </td>
+    
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.moneycontrol.com/entertainment/bigg-boss-18-heres-a-list-of-confirmed-contestants-for-this-years-time-ka-taandav-article-12836104.html">
+      </a>Test case 4
+    </td>
+    <td>
+      24.04
+    </td>
+  </tr>
   
   
   
