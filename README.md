@@ -12,4 +12,5 @@ they are listed in requirements.tct file included in this repository<br>
 
 <h2>Test.py</h2>
 Following texts were used in Test.py<br>
-<a href="https://www.businesstoday.in/india/story/congress-is-like-chinese-stock-market-shankar-sharma-after-exit-polls-predict-setback-for-bjp-in-haryana-448911-2024-10-06">Test case 1 </a>
+Test case <pre> prediction
+<a href="https://www.businesstoday.in/india/story/congress-is-like-chinese-stock-market-shankar-sharma-after-exit-polls-predict-setback-for-bjp-in-haryana-448911-2024-10-06">Test case 1 </a> <pre> 98.72
