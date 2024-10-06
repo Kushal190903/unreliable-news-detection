@@ -88,6 +88,20 @@ Test case 2</a>
       53.19
     </td>
   </tr>
+  <tr>
+    <td>
+      <a href=<tr>
+    <td>
+      <a href="https://www.hindustantimes.com/opinion/the-government-will-not-recognise-marital-rape-as-a-crime-101728143351843.html">Test case 6</a>
+    </td>
+    <td>
+      Unreliable
+    </td>
+    <td>
+      1.01
+    </td>
+  
+  
   
 </table>
   
