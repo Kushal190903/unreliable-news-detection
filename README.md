@@ -90,7 +90,7 @@ Test case 2</a>
   </tr>
   <tr>
     <td>
-      <a href="https://www.hindustantimes.com/opinion/the-government-will-not-recognise-marital-rape-as-a-crime-101728143351843.html">Test case 6</a>
+      <a href="https://www.hindustantimes.com/opinion/delhiberlin-partnership-has-kept-pace-with-india-s-rise-101727881406288.html">Test case 6</a>
     </td>
     <td>
       Unreliable
