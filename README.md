@@ -46,12 +46,14 @@ Test case 2</a>
   </tr>
   <tr>
     <td>
-      <a href="https://www.moneycontrol.com/entertainment/bigg-boss-18-heres-a-list-of-confirmed-contestants-for-this-years-time-ka-taandav-article-12836104.html">Test case 4<\a>
+      <a href="https://www.moneycontrol.com/entertainment/bigg-boss-18-heres-a-list-of-confirmed-contestants-for-this-years-time-ka-taandav-article-12836104.html">
+        Test case 4</a>
     </td>
     <td>
       24.04
     </td>
   </tr>
+</table>
   
   
   
