@@ -16,11 +16,15 @@ Following texts were used in Test.py<br>
 
 <table>
   <th>test case</th>
-  <th>prediction</th>  
+  <th>prediction</th> 
+  <th>confidence score</th>
 
   <tr>
     <td>
       <a href="https://www.businesstoday.in/india/story/congress-is-like-chinese-stock-market-shankar-sharma-after-exit-polls-predict-setback-for-bjp-in-haryana- 448911-2024-10-06">Test case 1</a>
+    </td>
+    <td>
+      Reliable
     </td>
     <td>
       98.72
@@ -32,6 +36,9 @@ Following texts were used in Test.py<br>
 Test case 2</a>
     </td>
     <td>
+      Reliable>
+    <\td>
+    <td>
       99.66
     </td>
   </tr>
@@ -39,6 +46,9 @@ Test case 2</a>
     <td>
       <a href="https://sports.ndtv.com/football/real-madrid-beat-villarreal-but-dani-carvajal-suffers-knee-injury-6726606">Test case 3</a>
     </td>
+    <td>
+      Reliable
+    <\td>
     <td>
       99.81
     </td>
@@ -50,7 +60,21 @@ Test case 2</a>
         Test case 4</a>
     </td>
     <td>
+      Unreliable
+    </td>
+    <td>
       24.04
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.space.com/spacex-falcon-heavy-europa-clipper-launch-webcast">Test case 4</a>
+    </td>
+    <td>
+      Reliable
+    </td>
+    <td>
+      98.72
     </td>
   </tr>
 </table>
