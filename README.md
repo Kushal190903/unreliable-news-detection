@@ -3,15 +3,17 @@ Using huggingface transformer embeddings and ml based classification to classify
 
 <h2>Dataset</h2>
 Dataset is obtained from multiple sources on kaggle<br>
-.https://www.kaggle.com/c/fake-news/data <br>
-.https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets/data<br>
+<ul>
+  <li>https://www.kaggle.com/c/fake-news/data</li>
+  <li>https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets/data<</li>
+</ul>
 
 <h2>requirements</h2>
 For running the code outside of colab , few dependencies are needed to be present in your environment<br>
 They are listed in requirements.txt file included in this repository<br>
 Install them using <pre>pip install -r requirements.txt </pre> in your virtual environment
 
-<h2>Test.py</h2>
+<h2>Test.ipynb</h2>
 Following texts were used in Test.py<br>
 
 <table>
