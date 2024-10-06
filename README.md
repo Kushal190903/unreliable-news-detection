@@ -8,4 +8,8 @@ Dataset is obtained from multiple sources on kaggle<br>
 
 <h2>requirements</h2>
 For running the code outside of colab , few dependencies are needed to be present in your environment<br>
-they are listed in requirements.tct file included in this repository
+they are listed in requirements.tct file included in this repository<br>
+
+<h2>Test.py</h2>
+Following texts were used in Test.py<br>
+<a href="https://www.businesstoday.in/india/story/congress-is-like-chinese-stock-market-shankar-sharma-after-exit-polls-predict-setback-for-bjp-in-haryana-448911-2024-10-06">Test case 1 </a>
