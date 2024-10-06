@@ -8,7 +8,8 @@ Dataset is obtained from multiple sources on kaggle<br>
 
 <h2>requirements</h2>
 For running the code outside of colab , few dependencies are needed to be present in your environment<br>
-they are listed in requirements.tct file included in this repository<br>
+They are listed in requirements.txt file included in this repository<br>
+Install them using <pre>pip install -r requirements.txt </pre> in your virtual environment
 
 <h2>Test.py</h2>
 Following texts were used in Test.py<br>
