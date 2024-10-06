@@ -36,8 +36,8 @@ Following texts were used in Test.py<br>
 Test case 2</a>
     </td>
     <td>
-      Reliable>
-    <\td>
+      Reliable
+    </td>
     <td>
       99.66
     </td>
@@ -48,7 +48,7 @@ Test case 2</a>
     </td>
     <td>
       Reliable
-    <\td>
+    </td>
     <td>
       99.81
     </td>
@@ -77,6 +77,18 @@ Test case 2</a>
       98.72
     </td>
   </tr>
+  <tr>
+    <td>
+      <a href="https://www.hindustantimes.com/opinion/the-government-will-not-recognise-marital-rape-as-a-crime-101728143351843.html">Test case 5</a>
+    </td>
+    <td>
+      Reliable
+    </td>
+    <td>
+      53.19
+    </td>
+  </tr>
+  
 </table>
   
   
