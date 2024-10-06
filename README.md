@@ -12,5 +12,5 @@ they are listed in requirements.tct file included in this repository<br>
 
 <h2>Test.py</h2>
 Following texts were used in Test.py<br>
-Test case    prediction<br>
+Test case <pre>prediction</pre>n<br>
 <a href="https://www.businesstoday.in/india/story/congress-is-like-chinese-stock-market-shankar-sharma-after-exit-polls-predict-setback-for-bjp-in-haryana-448911-2024-10-06">Test case 1 </a>    98.72
