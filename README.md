@@ -17,7 +17,7 @@ Following texts were used in Test.py<br>
 <table>
   <th>test case</th>
   <th>prediction</th> 
-  <th>confidence score</th>
+  <th>confidence score(for being reliable)</th>
 
   <tr>
     <td>
