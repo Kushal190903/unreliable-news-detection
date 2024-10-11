@@ -37,17 +37,17 @@ try:
   
     st.title("Unreliable News Detection with Confidence Score")
 
-    # User input for text
+    
     user_input = st.text_area("Enter news text to classify", "")
 
     if st.button("Classify"):
         if user_input:
             try:
-                # Get the classification result
+              
                 result = classify(user_input)
                 confidence = result if result >= 0.5 else 1 - result
 
-                # Display the result and confidence score
+                
                 if result < 0.5:
                     st.success(f"The news is classified as Reliable  with a confidence of {round((1 - result)*100, 1)}%")
                 else:
