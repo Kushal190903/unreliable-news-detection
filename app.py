@@ -11,7 +11,7 @@ try:
     
     
     try:
-        model = load_model('text_based_classifier.keras')
+        model = load_model('unreliable+news+detection+model.keras')
     except:
         st.warning("Error loading the model. Please check the model file or retry by reloading the page")
     
