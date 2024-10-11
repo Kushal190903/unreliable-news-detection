@@ -1,4 +1,4 @@
-<h1> Unreliable news detection </h1>
+<h1> Unreliable news detection <a href="https://unreliable-news-detection-tgbckzek6wuysrturqjaw7.streamlit.app/">(app)</a> </h1>
 Using huggingface transformer embeddings and ml based classification to classify news as reliable or unreliable.
 
 <h2>Dataset</h2>
