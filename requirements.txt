@@ -1,7 +1,10 @@
+ipykernel
 pandas
 numpy
 matplotlib
 scikit-learn
 tensorflow
-keras
+tf-keras
 langchain-huggingface
+sentence-transformers
+streamlit
