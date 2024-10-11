@@ -32,7 +32,7 @@ try:
         cleaned_text = wordopt(text)
         embedded_text = np.array(embedding.embed_query(cleaned_text)).reshape(1, -1)
         prediction = model.predict(embedded_text)
-        return prediction[0][0]  # Return the prediction score (0 for reliable, 1 for unreliable)
+        return prediction[0][0]  
 
   
     st.title("Unreliable News Detection with Confidence Score")
@@ -49,9 +49,9 @@ try:
 
                 # Display the result and confidence score
                 if result < 0.5:
-                    st.success(f"The news is classified as Reliable (0) with a confidence of {round((1 - result)*100, 1)}%")
+                    st.success(f"The news is classified as Reliable  with a confidence of {round((1 - result)*100, 1)}%")
                 else:
-                    st.error(f"The news is classified as Unreliable (1) with a confidence of {round(result * 100, 1)}%")
+                    st.error(f"The news is classified as Unreliable  with a confidence of {round(result * 100, 1)}%")
             except Exception as e:
                 st.warning(f"An error occurred during classification: {str(e)}")
             if len(user_input.split(" "))<100:
