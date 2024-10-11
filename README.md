@@ -14,7 +14,7 @@ They are listed in requirements.txt file included in this repository<br>
 Install them using <pre>pip install -r requirements.txt </pre> in your virtual environment
 
 <h2>Test.ipynb</h2>
-Following texts were used in Test.py<br>
+Following texts were used in Test.ipynb<br>
 
 <table>
   <th>test case</th>
