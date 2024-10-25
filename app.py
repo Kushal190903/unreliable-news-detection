@@ -42,7 +42,7 @@ def check_length_satisfaction(text,min_length):
             i+=1
         else:
             
-            while text[i]==" ":
+            while i< len(text) and text[i]==" ":
                 i=i+1
             length+=1
         if length>=min_length:
