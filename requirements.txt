@@ -1,10 +1,17 @@
-ipykernel
 pandas
 numpy
+langchain
+langchain_community
 matplotlib
+ipykernel
 scikit-learn
-tensorflow
+tensorflow #opional if you are using xgboost
 tf-keras
 langchain-huggingface
+transformers
 sentence-transformers
 streamlit
+bs4
+langchain_groq
+trafilatura
+xgboost #optional if you are using neural network
