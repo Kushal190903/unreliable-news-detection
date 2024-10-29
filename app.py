@@ -95,7 +95,7 @@ try:
                         downloaded = trafilatura.fetch_url(user_input)#userinput used here for the web url
                         main_content = trafilatura.extract(downloaded) if downloaded else None 
                     if main_content:
-                        with st.spinner("classifying")
+                        with st.spinner("classifying"):
                             st.write(main_content)
                             result=classify(main_content)
                             check_length_satisfaction(main_content,100)
