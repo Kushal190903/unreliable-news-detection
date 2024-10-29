@@ -29,7 +29,7 @@ def wordopt(t):
 
 def classify(text):
     '''classifies the text using the neural network model'''
-    text=wordopt(text)
+    # text=wordopt(text)   this part is now done outside the function to be used by check_length_satisfaction also
     embedded_text = np.array(embedding.embed_query(text)).reshape(1, -1)
     prediction = model.predict(embedded_text)
     return prediction[0][0]  # Return the prediction score (0 for reliable, 1 for unreliable)
@@ -71,6 +71,7 @@ try:
             if input_option=='Text':
                 with st.spinner("Classifying"):
                     if user_input:
+                        user_input=wordopt(user_input)
                         result = classify(user_input)
                      
                         check_length_satisfaction(user_input,100)
@@ -88,6 +89,7 @@ try:
                     if main_content:
                         with st.spinner("classifying"):
                             st.write(main_content)
+                            main_content=wordopt(main_content)
                             result=classify(main_content)
                             check_length_satisfaction(main_content,100)
                     else:
