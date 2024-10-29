@@ -33,21 +33,10 @@ def classify(text):
     prediction = model.predict(embedded_text)
     return prediction[0][0]  # Return the prediction score (0 for reliable, 1 for unreliable)
 
-def check_length_satisfaction(text,min_length):
-    '''check whether the length of a text(in words) is less than the specified number'''
-    length=0
-    i=0
-    while i<len(text):
-        if text[i]!=" ":
-            i+=1
-        else:
-            
-            while i< len(text) and text[i]==" ":
-                i=i+1
-            length+=1
-        if length>=min_length:
-            break
-    if length<min_length:
+def check_length_satisfaction(text, min_length=100):
+    '''Check whether the length of a text (in words) is less than the specified number'''
+    length = len(text.split())
+    if length < min_length:
         st.warning('The prediction may not be accurate on short texts')
 
 try:
@@ -59,8 +48,8 @@ try:
   
     st.title("Unreliable News Detection with Confidence Score")
     st.sidebar.title('About')
-    st.sidebar.write("This app classifies news as either reliable  or unreliable  and shows the confidence score.")
-    st.sidebar.write("\n\n\n**Using URL may give unexpected results at the moment because the process of extracting content from URL is currently under development**")
+    st.sidebar.write("This app classifies news as either reliable  or unreliable based solely on the text and shows the confidence score of prediction.")
+    st.sidebar.write(f"{"\n"*7}**Using URL may give unexpected results at the moment because the process of extracting content from URL is currently under development**")
 
     # User input for text
     input_option = st.radio("Select Input Type", ("URL", "Text"))
