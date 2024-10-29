@@ -12,10 +12,11 @@ try:
     # model=XGBClassifier()
     # model.load_model('news_classifier_xgb.json')
 except:
-    st.warning("Error loading the model. Please check the model file or retry by reloading the page")
+    st.warning("Error loading the classification model. Please check the model file or retry by reloading the page")
 
 
 def wordopt(t):
+     '''cleans the text by removing/substituting non word characters,HTML code,hyperlinks,extra blanck spaces etc.'''
      t = t.lower()
      t = re.sub('\[.*?\]', 'bracket', t)
      t = re.sub("\\W"," ",t)
@@ -27,7 +28,7 @@ def wordopt(t):
      return t.strip()
 
 def classify(text):
-    '''classify the text'''
+    '''classifies the text using the neural network model'''
     text=wordopt(text)
     embedded_text = np.array(embedding.embed_query(text)).reshape(1, -1)
     prediction = model.predict(embedded_text)
@@ -40,10 +41,12 @@ def check_length_satisfaction(text, min_length=100):
         st.warning('The prediction may not be accurate on short texts')
 
 try:
-    from langchain_huggingface import HuggingFaceEmbeddings
+    try:
+        from langchain_huggingface import HuggingFaceEmbeddings
 
-    embedding = HuggingFaceEmbeddings(model_name='all-MiniLM-L6-v2')
-    
+        embedding = HuggingFaceEmbeddings(model_name='all-MiniLM-L6-v2')
+    except exception as e:
+        st.warning("Error in importing/loading the embeddings module : ",e)
    
   
     st.title("Unreliable News Detection with Confidence Score")
@@ -51,7 +54,6 @@ try:
     st.sidebar.write("This app classifies news as either reliable  or unreliable based solely on the text and shows the confidence score of prediction.")
     st.sidebar.write("\n\n\n\n\n\n\n**Using URL may give unexpected results at the moment because the process of extracting content from URL is currently under development**")
 
-    # User input for text
     input_option = st.radio("Select Input Type", ("URL", "Text"))
     if input_option=='Text':
 
