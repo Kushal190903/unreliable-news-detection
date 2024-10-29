@@ -60,7 +60,7 @@ try:
     st.title("Unreliable News Detection with Confidence Score")
     st.sidebar.title('About')
     st.sidebar.write("This app classifies news as either reliable  or unreliable  and shows the confidence score.")
-    
+    st.sidebar.write("\n\n\n***Using URL may give unexpected results at the moment because the process of extracting content from URL is currently under development***")
 
     # User input for text
     input_option = st.radio("Select Input Type", ("URL", "Text"))
