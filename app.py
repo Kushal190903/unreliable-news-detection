@@ -66,7 +66,7 @@ try:
     input_option = st.radio("Select Input Type", ("URL", "Text"))
     if input_option=='Text':
 
-        user_input = st.text_area("Enter news text to classify", "",height=50)
+        user_input = st.text_area("Enter news text to classify(only main content without title, subheadings etc.)", "",height=50)
 
     elif input_option=='URL':
         user_input=st.text_area("Enter URL of the news article",height=10)
