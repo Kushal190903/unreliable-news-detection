@@ -73,28 +73,32 @@ try:
 
     classify_button=st.button('classify')
     if classify_button:
-        
+       
         try:
             result=-1
             # Get the classification result
             if input_option=='Text':
-                if user_input:
-                    result = classify(user_input)
-                    
-                    check_length_satisfaction(user_input,100)
-                else:
-                    st.warning("Please enter some text for classification.")
+                with st.spinner("Classifying"):
+                    if user_input:
+                        result = classify(user_input)
+                     
+                        check_length_satisfaction(user_input,100)
+                    else:
+                        st.warning("Please enter some text for classification.")
                     
             else:
                 if not user_input:
                     st.warning("please enter a URL")
+                 
                 else:
-                    downloaded = trafilatura.fetch_url(user_input)#userinput used here for the web url
-                    main_content = trafilatura.extract(downloaded) if downloaded else None 
+                    with st.spinner("Extracting content"):
+                        downloaded = trafilatura.fetch_url(user_input)#userinput used here for the web url
+                        main_content = trafilatura.extract(downloaded) if downloaded else None 
                     if main_content:
-                        st.write(main_content)
-                        result=classify(main_content)
-                        check_length_satisfaction(main_content,100)
+                        with st.spinner("classifying")
+                            st.write(main_content)
+                            result=classify(main_content)
+                            check_length_satisfaction(main_content,100)
                     else:
                         st.warning("Could not find any article or relevant text")
                     
